@@ -16,10 +16,10 @@ Pod::Spec.new do |s|
   # s.osx.deployment_target = '10.7'
   s.requires_arc = true
 
-  s.source_files = 'CTPaymentManager/*'
+  s.source_files = 'CTPaymentManager/Configure/*','CTPaymentManager/Controllers/*','CTPaymentManager/Images/payment/2/*','CTPaymentManager/Images/payment/3/*','CTPaymentManager/lib/AliPay/*','CTPaymentManager/lib/UPPayPlugin/*','CTPaymentManager/lib/WxPayLib/*','CTPaymentManager/lib/AliPay/openssl/*','CTPaymentManager/lib/AliPay/Util/*','CTPaymentManager/Models/*','CTPaymentManager/Views/*'
   # s.resources = 'Assets'
 
   # s.ios.exclude_files = 'Classes/osx'
   # s.osx.exclude_files = 'Classes/ios'
   # s.public_header_files = 'Classes/**/*.h'
-  s.frameworks = 'Foundation', 'CoreGraphics', 'UIKit','lbc++','libz','libsqlite','SystemConfiguration','CoreTelephony','QuartzCore','CoreGraphics'end
+  s.frameworks = 'Foundation', 'CoreGraphics', 'UIKit', 'lbc++', 'libz', 'libsqlite', 'SystemConfiguration', 'CoreTelephony', 'QuartzCore', 'CoreGraphics'end
